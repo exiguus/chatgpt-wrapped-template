@@ -1,0 +1,24 @@
+{
+	"name": "chatgpt-wrapped-template",
+	"version": "1.0.0",
+	"description": "Annual review Template for ChatGPT usage",
+	"scripts": {
+		"lint": "biome lint . --fix",
+		"format": "biome format . --fix"
+	},
+	"keywords": ["chatgpt", "openai", "annual review", "gpt", "template"],
+	"author": {
+		"name": "Simon Gattner",
+		"url": "https://gattner.name/",
+		"mastodon": "https://toot.community/@exiguus"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/exiguus/chatgpt-wrapped-template.git"
+	},
+	"homepage": "https://github.com/exiguus/chatgpt-wrapped-template#readme",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
+}
